@@ -1,0 +1,52 @@
+@font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+
+}
+
+@font-face {
+
+    font-family: futuristica;
+    src: url(Monitorica-Rg.ttf);
+
+}
+
+body {
+
+color:  #6b9eb1a1;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position-x: center;
+
+}
+
+div {
+
+
+text-align: center;
+margin-top: 5%;
+font-size: 250%;
+margin-left: 26%;
+margin-right: 26%;
+border-radius: 5px;
+font-family: digital;
+letter-spacing: 15px;
+
+
+}
+
+.frase {
+
+font-family: futuristica;
+
+}
+
+main {
+
+margin-left: 10%;
+margin-right: 10%;
+padding: 3%;
+border-radius: 6px;
+
+}
