@@ -5,12 +5,9 @@ function clock() {
     const horas = horaAgora.getHours(); //pegar as horas na função new date.
     const minutos = horaAgora.getMinutes(); //pegar minutos da função.
     const segundos = horaAgora.getSeconds(); //pegar os segundos na função new date. constante com cor apagada, é por que não esta sendo usada.
-    // const formatoHoras = horas.toString().padStart (2,"0"); //Para transformar o numero referente a hora em um string. Pad para definir o inicio da cadeia de caracteres, o limite de caracteres, e quando perceber que tem um caracter só, começara com zero. Ex: 01, 02.
+    const formatoHoras = horas.toString().padStart (2,"0"); //Para transformar o numero referente a hora em um string. Pad para definir o inicio da cadeia de caracteres, o limite de caracteres, e quando perceber que tem um caracter só, começara com zero. Ex: 01, 02.
     const formatoMinutos = minutos.toString().padStart(2, "0");
     const formatoSegundos = segundos.toString().padStart(2, "0");
-
-    const formatoHoras = 16
-
 
     areaDoRelogio.textContent = `${formatoHoras}:${formatoMinutos}:${formatoSegundos}`; //text content para colocar texto no navegador, crase serve para usar placeholder, apenas com ela consigo construir frases concatenadas com variantes de maneira mais direta, coloco variaveis ou constantes dentro das placeholder, não funciona com aspas.
 
